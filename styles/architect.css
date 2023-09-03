@@ -75,6 +75,51 @@ margin:0 auto;
 .banner img{
   width: 100%;
 }
+main{
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+.team-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.team-images{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:24px
+}
+.team-content{
+  padding-left: 70px;
+  padding-right: 70px;
+ 
+}
+span{
+  font-size:2.8rem ;
+}
+.quick-list{
+  color:#727272 ;
+  font-weight: 500;
+}
+.of-our{
+  color:#131313;
+  font-weight: 700;
+}
+.ftr{
+  color:#FF900E;
+  font-weight: 700; 
+}
+.team-description{
+  font-size: 1rem;
+  color:#727272;
+}
+.btn-primary{
+  margin-top: 32px;
+}
+
+
 /* responsive media query */
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -93,3 +138,4 @@ margin:0 auto;
     padding: 50px;
   }
 }
+
